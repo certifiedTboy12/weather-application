@@ -1,0 +1,184 @@
+* {
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.app-root {
+    -fx-background-color: #eef4fb;
+}
+
+.day-background {
+    -fx-background-color: linear-gradient(to bottom, #e9f6ff, #f7fbff);
+}
+
+.evening-background {
+    -fx-background-color: linear-gradient(to bottom, #fff1dc, #f5e3d8);
+}
+
+.night-background {
+    -fx-background-color: linear-gradient(to bottom, #dfe5f2, #edf1f8);
+}
+
+.header {
+    -fx-background-color: linear-gradient(to right, #155eef, #3b82f6);
+}
+
+.app-title {
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+.subtitle {
+    -fx-text-fill: #dbeafe;
+    -fx-font-size: 14px;
+}
+
+.city-field {
+    -fx-background-color: white;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: transparent;
+    -fx-padding: 12px;
+    -fx-font-size: 15px;
+}
+
+.city-field:focused {
+    -fx-border-color: #bfdbfe;
+}
+
+.search-button {
+    -fx-background-color: white;
+    -fx-text-fill: #155eef;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-padding: 11px 20px;
+    -fx-cursor: hand;
+}
+
+.search-button:hover {
+    -fx-background-color: #eff6ff;
+}
+
+.unit-box {
+    -fx-background-color: white;
+    -fx-background-radius: 7px;
+}
+
+.header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.main-scroll {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.main-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+
+.card {
+    -fx-background-color: rgba(255, 255, 255, 0.94);
+    -fx-background-radius: 14px;
+    -fx-padding: 22px;
+    -fx-effect: dropshadow(gaussian, rgba(30, 60, 100, 0.12), 15, 0.2, 0, 4);
+}
+
+.location-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172b4d;
+}
+
+.temperature {
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #155eef;
+}
+
+.condition {
+    -fx-font-size: 16px;
+    -fx-text-fill: #52627a;
+}
+
+.detail-label {
+    -fx-background-color: #f3f7fc;
+    -fx-background-radius: 8px;
+    -fx-padding: 13px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #334155;
+}
+
+.section-title {
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #172b4d;
+}
+
+.forecast-card {
+    -fx-background-color: #f5f9ff;
+    -fx-background-radius: 12px;
+    -fx-padding: 15px;
+    -fx-min-width: 145px;
+    -fx-min-height: 160px;
+    -fx-border-color: #dbe7f5;
+    -fx-border-radius: 12px;
+}
+
+.forecast-card:hover {
+    -fx-background-color: #eaf3ff;
+}
+
+.forecast-day {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #52627a;
+}
+
+.forecast-temperature {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #155eef;
+}
+
+.forecast-condition {
+    -fx-font-size: 12px;
+    -fx-text-fill: #334155;
+}
+
+.forecast-small {
+    -fx-font-size: 11px;
+    -fx-text-fill: #64748b;
+}
+
+.list-view {
+    -fx-background-color: #f8fbff;
+    -fx-border-color: #dbe7f5;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-padding: 9px;
+    -fx-text-fill: #334155;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #eaf3ff;
+}
+
+.list-cell:filled:selected {
+    -fx-background-color: #dbeafe;
+    -fx-text-fill: #155eef;
+}
+
+.status-bar {
+    -fx-background-color: #172b4d;
+}
+
+.status-text {
+    -fx-text-fill: #dbeafe;
+    -fx-font-size: 12px;
+}

@@ -147,4 +147,6 @@ This project demonstrates:
 
 ## Author
 
-Replace this section with your name and student information before submission.
+- Name: Emmanuel Tosin
+- ID: C110322110
+- Course: CS 1103-01
